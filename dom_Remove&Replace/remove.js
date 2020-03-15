@@ -45,10 +45,9 @@ val=link;
 console.log(val);
 
 //atributes
-val= link.getAttribute('herf');
-val= link.setAttribute('herf','http://google.com');
+val= link.getAttribute('href');
+val= link.setAttribute('href','http://rakibul.6te.net/');
 console.log(val);
-// val= link.setAttribute('herf','http://rakibul.6te.net/');
 val=link.hasAttribute('title','goolge');
 val=link.hasAttribute('tile');
 link.removeAttribute('title');
